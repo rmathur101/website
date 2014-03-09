@@ -1,0 +1,161 @@
+body{
+	font-family: 'Gruppo', cursive, sans-serif;
+	font-size: 1.10em;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+h1{
+	position: relative;
+	top: 475px;
+	left: 35px;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+
+#nav {
+	position: relative;
+	top: -40px;
+	height: 600px;
+	margin: auto;
+	width: 98%;
+	box-shadow: 20px 20px 20px 20px #888888;
+	
+}
+
+
+
+#wrapper1{
+	position: absolute;
+	left: 10px;
+	top: 290px;
+
+
+	height: 75px;
+	width: 75px;
+	border: 10px solid black;
+	border-radius: 50%;
+	background-color: black;	
+}
+
+#list1{
+	margin-top: 30px;
+}
+
+#wrapper2{
+	position: absolute;
+	left: 135px;
+	top: 295px;
+
+	height: 75px;
+	width: 75px;
+	border: 10px solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#list2{
+	margin-top: 15px;
+}
+
+#wrapper3{
+	position: absolute;
+	left: 235px;
+	top: 230px;
+
+	height: 75px;
+	width: 75px;
+	border: 10px solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#list3{
+	margin-top: 25px;
+}
+
+#wrapper4{
+	position: absolute;
+	left: 285px;
+	top: 125px;
+
+	height: 75px;
+	width: 75px;
+	border: 10px solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#list4{
+	margin-top: 25px;
+}
+
+
+#wrapper5{
+	position: absolute;
+	left: 270px;
+	top: 10px;
+
+	height: 75px;
+	width: 75px;
+	border: 10px solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#list5{
+	margin-top: 25px;
+}
+
+
+#img img{ /*YOU MUST INSERT THE IMG (in red) because it sepcifically targets the image within the div (the div called #img) */
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	height: 200px;
+	width: 200px;
+	border: 10px solid black;
+	border-radius: 50%;
+}
+
+
+
+.list{
+	list-style: none;
+	text-align: center;
+
+	
+	/*display: table-cell;  this line and the next one allows the navigation text to be centered within the circles. to do this we had to change the display type to table-cell which allows for things to be aligned vertically
+	vertical-align: middle; */
+}
+
+
+
+#books{
+	position: relative;
+	left: 550px;
+	top: -50px;
+	border: 10px solid black;
+	height: 400px;
+	width: 400px;
+	background-color: black;
+	border-radius: 50%;
+
+}
+
+#books ul {
+	list-style-type: none;
+	font-size: 1.10em;
+	color: white;
+	margin-left: 110px;
+	margin-top: 100px; 
+}
+
+
+
